@@ -12,16 +12,6 @@
 	</properties>
 
 	<build>
-		<sourceDirectory>src</sourceDirectory>
-		<directory>build</directory>
-		<resources>
-     		<resource>
-       			<directory>src</directory>
-       			<excludes>
-       				<exclude>**/*.java</exclude>
-       			</excludes>
-     		</resource>
-   		</resources>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
